@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98CC0F851992ED7B0058637E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0F841992ED7B0058637E /* Foundation.framework */; };
+		98CC0F871992ED7B0058637E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0F861992ED7B0058637E /* CoreGraphics.framework */; };
+		98CC0F891992ED7B0058637E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0F881992ED7B0058637E /* UIKit.framework */; };
+		98CC0F8F1992ED7B0058637E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98CC0F8D1992ED7B0058637E /* InfoPlist.strings */; };
+		98CC0F911992ED7B0058637E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC0F901992ED7B0058637E /* main.m */; };
+		98CC0F951992ED7B0058637E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC0F941992ED7B0058637E /* AppDelegate.m */; };
+		98CC0F981992ED7B0058637E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CC0F961992ED7B0058637E /* Main_iPhone.storyboard */; };
+		98CC0F9B1992ED7B0058637E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CC0F991992ED7B0058637E /* Main_iPad.storyboard */; };
+		98CC0F9E1992ED7B0058637E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC0F9D1992ED7B0058637E /* MasterViewController.m */; };
+		98CC0FA11992ED7B0058637E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC0FA01992ED7B0058637E /* DetailViewController.m */; };
+		98CC0FA31992ED7B0058637E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CC0FA21992ED7B0058637E /* Images.xcassets */; };
+		98CC0FAA1992ED7B0058637E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0FA91992ED7B0058637E /* XCTest.framework */; };
+		98CC0FAB1992ED7B0058637E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0F841992ED7B0058637E /* Foundation.framework */; };
+		98CC0FAC1992ED7B0058637E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0F881992ED7B0058637E /* UIKit.framework */; };
+		98CC0FB41992ED7B0058637E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98CC0FB21992ED7B0058637E /* InfoPlist.strings */; };
+		98CC0FB61992ED7B0058637E /* SkinnyViewControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC0FB51992ED7B0058637E /* SkinnyViewControllersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98CC0FAD1992ED7B0058637E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CC0F791992ED7B0058637E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CC0F801992ED7B0058637E;
+			remoteInfo = SkinnyViewControllers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98CC0F811992ED7B0058637E /* SkinnyViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinnyViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CC0F841992ED7B0058637E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98CC0F861992ED7B0058637E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98CC0F881992ED7B0058637E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98CC0F8C1992ED7B0058637E /* SkinnyViewControllers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkinnyViewControllers-Info.plist"; sourceTree = "<group>"; };
+		98CC0F8E1992ED7B0058637E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98CC0F901992ED7B0058637E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98CC0F921992ED7B0058637E /* SkinnyViewControllers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkinnyViewControllers-Prefix.pch"; sourceTree = "<group>"; };
+		98CC0F931992ED7B0058637E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98CC0F941992ED7B0058637E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98CC0F971992ED7B0058637E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		98CC0F9A1992ED7B0058637E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		98CC0F9C1992ED7B0058637E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		98CC0F9D1992ED7B0058637E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		98CC0F9F1992ED7B0058637E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		98CC0FA01992ED7B0058637E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		98CC0FA21992ED7B0058637E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98CC0FA81992ED7B0058637E /* SkinnyViewControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinnyViewControllersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CC0FA91992ED7B0058637E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		98CC0FB11992ED7B0058637E /* SkinnyViewControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkinnyViewControllersTests-Info.plist"; sourceTree = "<group>"; };
+		98CC0FB31992ED7B0058637E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98CC0FB51992ED7B0058637E /* SkinnyViewControllersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkinnyViewControllersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98CC0F7E1992ED7B0058637E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CC0F871992ED7B0058637E /* CoreGraphics.framework in Frameworks */,
+				98CC0F891992ED7B0058637E /* UIKit.framework in Frameworks */,
+				98CC0F851992ED7B0058637E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CC0FA51992ED7B0058637E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CC0FAA1992ED7B0058637E /* XCTest.framework in Frameworks */,
+				98CC0FAC1992ED7B0058637E /* UIKit.framework in Frameworks */,
+				98CC0FAB1992ED7B0058637E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98CC0F781992ED7B0058637E = {
+			isa = PBXGroup;
+			children = (
+				98CC0F8A1992ED7B0058637E /* SkinnyViewControllers */,
+				98CC0FAF1992ED7B0058637E /* SkinnyViewControllersTests */,
+				98CC0F831992ED7B0058637E /* Frameworks */,
+				98CC0F821992ED7B0058637E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98CC0F821992ED7B0058637E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98CC0F811992ED7B0058637E /* SkinnyViewControllers.app */,
+				98CC0FA81992ED7B0058637E /* SkinnyViewControllersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98CC0F831992ED7B0058637E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98CC0F841992ED7B0058637E /* Foundation.framework */,
+				98CC0F861992ED7B0058637E /* CoreGraphics.framework */,
+				98CC0F881992ED7B0058637E /* UIKit.framework */,
+				98CC0FA91992ED7B0058637E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98CC0F8A1992ED7B0058637E /* SkinnyViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				98CC0F931992ED7B0058637E /* AppDelegate.h */,
+				98CC0F941992ED7B0058637E /* AppDelegate.m */,
+				98CC0F961992ED7B0058637E /* Main_iPhone.storyboard */,
+				98CC0F991992ED7B0058637E /* Main_iPad.storyboard */,
+				98CC0F9C1992ED7B0058637E /* MasterViewController.h */,
+				98CC0F9D1992ED7B0058637E /* MasterViewController.m */,
+				98CC0F9F1992ED7B0058637E /* DetailViewController.h */,
+				98CC0FA01992ED7B0058637E /* DetailViewController.m */,
+				98CC0FA21992ED7B0058637E /* Images.xcassets */,
+				98CC0F8B1992ED7B0058637E /* Supporting Files */,
+			);
+			path = SkinnyViewControllers;
+			sourceTree = "<group>";
+		};
+		98CC0F8B1992ED7B0058637E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CC0F8C1992ED7B0058637E /* SkinnyViewControllers-Info.plist */,
+				98CC0F8D1992ED7B0058637E /* InfoPlist.strings */,
+				98CC0F901992ED7B0058637E /* main.m */,
+				98CC0F921992ED7B0058637E /* SkinnyViewControllers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98CC0FAF1992ED7B0058637E /* SkinnyViewControllersTests */ = {
+			isa = PBXGroup;
+			children = (
+				98CC0FB51992ED7B0058637E /* SkinnyViewControllersTests.m */,
+				98CC0FB01992ED7B0058637E /* Supporting Files */,
+			);
+			path = SkinnyViewControllersTests;
+			sourceTree = "<group>";
+		};
+		98CC0FB01992ED7B0058637E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CC0FB11992ED7B0058637E /* SkinnyViewControllersTests-Info.plist */,
+				98CC0FB21992ED7B0058637E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98CC0F801992ED7B0058637E /* SkinnyViewControllers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CC0FB91992ED7B0058637E /* Build configuration list for PBXNativeTarget "SkinnyViewControllers" */;
+			buildPhases = (
+				98CC0F7D1992ED7B0058637E /* Sources */,
+				98CC0F7E1992ED7B0058637E /* Frameworks */,
+				98CC0F7F1992ED7B0058637E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkinnyViewControllers;
+			productName = SkinnyViewControllers;
+			productReference = 98CC0F811992ED7B0058637E /* SkinnyViewControllers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98CC0FA71992ED7B0058637E /* SkinnyViewControllersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CC0FBC1992ED7B0058637E /* Build configuration list for PBXNativeTarget "SkinnyViewControllersTests" */;
+			buildPhases = (
+				98CC0FA41992ED7B0058637E /* Sources */,
+				98CC0FA51992ED7B0058637E /* Frameworks */,
+				98CC0FA61992ED7B0058637E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CC0FAE1992ED7B0058637E /* PBXTargetDependency */,
+			);
+			name = SkinnyViewControllersTests;
+			productName = SkinnyViewControllersTests;
+			productReference = 98CC0FA81992ED7B0058637E /* SkinnyViewControllersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98CC0F791992ED7B0058637E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Wide Eye Labs";
+				TargetAttributes = {
+					98CC0FA71992ED7B0058637E = {
+						TestTargetID = 98CC0F801992ED7B0058637E;
+					};
+				};
+			};
+			buildConfigurationList = 98CC0F7C1992ED7B0058637E /* Build configuration list for PBXProject "SkinnyViewControllers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98CC0F781992ED7B0058637E;
+			productRefGroup = 98CC0F821992ED7B0058637E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CC0F801992ED7B0058637E /* SkinnyViewControllers */,
+				98CC0FA71992ED7B0058637E /* SkinnyViewControllersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98CC0F7F1992ED7B0058637E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CC0F9B1992ED7B0058637E /* Main_iPad.storyboard in Resources */,
+				98CC0FA31992ED7B0058637E /* Images.xcassets in Resources */,
+				98CC0F981992ED7B0058637E /* Main_iPhone.storyboard in Resources */,
+				98CC0F8F1992ED7B0058637E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CC0FA61992ED7B0058637E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CC0FB41992ED7B0058637E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98CC0F7D1992ED7B0058637E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CC0F951992ED7B0058637E /* AppDelegate.m in Sources */,
+				98CC0F9E1992ED7B0058637E /* MasterViewController.m in Sources */,
+				98CC0F911992ED7B0058637E /* main.m in Sources */,
+				98CC0FA11992ED7B0058637E /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CC0FA41992ED7B0058637E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CC0FB61992ED7B0058637E /* SkinnyViewControllersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98CC0FAE1992ED7B0058637E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CC0F801992ED7B0058637E /* SkinnyViewControllers */;
+			targetProxy = 98CC0FAD1992ED7B0058637E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98CC0F8D1992ED7B0058637E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CC0F8E1992ED7B0058637E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98CC0F961992ED7B0058637E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CC0F971992ED7B0058637E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		98CC0F991992ED7B0058637E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CC0F9A1992ED7B0058637E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		98CC0FB21992ED7B0058637E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CC0FB31992ED7B0058637E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98CC0FB71992ED7B0058637E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98CC0FB81992ED7B0058637E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98CC0FBA1992ED7B0058637E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkinnyViewControllers/SkinnyViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "SkinnyViewControllers/SkinnyViewControllers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98CC0FBB1992ED7B0058637E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkinnyViewControllers/SkinnyViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "SkinnyViewControllers/SkinnyViewControllers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		98CC0FBD1992ED7B0058637E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkinnyViewControllers.app/SkinnyViewControllers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkinnyViewControllers/SkinnyViewControllers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SkinnyViewControllersTests/SkinnyViewControllersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		98CC0FBE1992ED7B0058637E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkinnyViewControllers.app/SkinnyViewControllers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkinnyViewControllers/SkinnyViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "SkinnyViewControllersTests/SkinnyViewControllersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98CC0F7C1992ED7B0058637E /* Build configuration list for PBXProject "SkinnyViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CC0FB71992ED7B0058637E /* Debug */,
+				98CC0FB81992ED7B0058637E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CC0FB91992ED7B0058637E /* Build configuration list for PBXNativeTarget "SkinnyViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CC0FBA1992ED7B0058637E /* Debug */,
+				98CC0FBB1992ED7B0058637E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98CC0FBC1992ED7B0058637E /* Build configuration list for PBXNativeTarget "SkinnyViewControllersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CC0FBD1992ED7B0058637E /* Debug */,
+				98CC0FBE1992ED7B0058637E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98CC0F791992ED7B0058637E /* Project object */;
+}
