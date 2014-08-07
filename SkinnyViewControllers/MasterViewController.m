@@ -10,10 +10,15 @@
 
 #import "DetailViewController.h"
 #import "ApiClient.h"
+#import "Quote.h"
 
 @interface MasterViewController () {
   NSMutableArray *_objects;
 }
+
+- (void)getData;
+- (void)selectFirstItemIfIpad;
+
 @end
 
 @implementation MasterViewController
@@ -31,24 +36,17 @@
 {
   [super viewDidLoad];
   self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-  
-  [[ApiClient sharedHTTPClient] getQuotesWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-    _objects = [responseObject valueForKeyPath:@"quotes"];
-    
-    [self.tableView reloadData];
-    
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad && [_objects count] > 0) {
-      [self.detailViewController setDetailItem:[_objects objectAtIndex:0]];
-      [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionTop];
-    }
+  [self getData];
+}
+
+- (void)getData
+{
+  [Quote getAllQuotes:^(AFHTTPRequestOperation *operation, NSMutableArray *quotes) {
+    _objects = quotes;
+    [self reloadTable];
   } andFailure:^(AFHTTPRequestOperation *operation, NSError *error) {
     NSLog(@"failed to retrieve quotes");
   }];
-}
-
-- (void)didReceiveMemoryWarning
-{
-  [super didReceiveMemoryWarning];
 }
 
 - (void)insertNewObject:(id)object
@@ -64,11 +62,6 @@
 
 #pragma mark - Table View
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-  return 1;
-}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
   return _objects.count;
@@ -78,14 +71,10 @@
 {
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
   
-  NSDictionary *object = _objects[indexPath.row];
-  cell.textLabel.text = [object valueForKey:@"author"];
+  Quote *quote = _objects[indexPath.row];
+  cell.textLabel.text = [quote author];
+  
   return cell;
-}
-
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-  return NO;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -102,6 +91,20 @@
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     NSDictionary *object = _objects[indexPath.row];
     [[segue destinationViewController] setDetailItem:object];
+  }
+}
+
+- (void)reloadTable
+{
+  [self.tableView reloadData];
+  [self selectFirstItemIfIpad];
+}
+
+- (void)selectFirstItemIfIpad
+{
+  if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad && [_objects count] > 0) {
+    [self.detailViewController setDetailItem:[_objects objectAtIndex:0]];
+    [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionTop];
   }
 }
 

@@ -7,10 +7,14 @@
 //
 
 #import "DetailViewController.h"
+#import "Quote.h"
 
 @interface DetailViewController ()
+
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
+
 - (void)configureView;
+
 @end
 
 @implementation DetailViewController
