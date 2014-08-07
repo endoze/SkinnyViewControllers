@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "98CC0F801992ED7B0058637E"
+               BlueprintIdentifier = "98BD3D931991B9C000B421F6"
                BuildableName = "SkinnyViewControllers.app"
                BlueprintName = "SkinnyViewControllers"
                ReferencedContainer = "container:SkinnyViewControllers.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "98CC0FA71992ED7B0058637E"
+               BlueprintIdentifier = "98BD3DBA1991B9C100B421F6"
                BuildableName = "SkinnyViewControllersTests.xctest"
                BlueprintName = "SkinnyViewControllersTests"
                ReferencedContainer = "container:SkinnyViewControllers.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "98CC0F801992ED7B0058637E"
+            BlueprintIdentifier = "98BD3D931991B9C000B421F6"
             BuildableName = "SkinnyViewControllers.app"
             BlueprintName = "SkinnyViewControllers"
             ReferencedContainer = "container:SkinnyViewControllers.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "98CC0F801992ED7B0058637E"
+            BlueprintIdentifier = "98BD3D931991B9C000B421F6"
             BuildableName = "SkinnyViewControllers.app"
             BlueprintName = "SkinnyViewControllers"
             ReferencedContainer = "container:SkinnyViewControllers.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "98CC0F801992ED7B0058637E"
+            BlueprintIdentifier = "98BD3D931991B9C000B421F6"
             BuildableName = "SkinnyViewControllers.app"
             BlueprintName = "SkinnyViewControllers"
             ReferencedContainer = "container:SkinnyViewControllers.xcodeproj">

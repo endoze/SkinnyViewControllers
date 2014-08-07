@@ -2,7 +2,7 @@
 //  DetailViewController.h
 //  SkinnyViewControllers
 //
-//  Created by cstephan on 8/6/14.
+//  Created by cstephan on 8/5/14.
 //  Copyright (c) 2014 Wide Eye Labs. All rights reserved.
 //
 
@@ -12,5 +12,7 @@
 
 @property (strong, nonatomic) id detailItem;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *quoteBodyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *authorNameLabel;
+
 @end

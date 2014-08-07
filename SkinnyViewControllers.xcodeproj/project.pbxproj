@@ -7,167 +7,172 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2257E7A9622C42B48DAB680A /* libPods-SkinnyViewControllers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C1AE49D758492D8A2AA1FD /* libPods-SkinnyViewControllers.a */; };
-		5FC9897C54504EE0B6FAA216 /* libPods-SkinnyViewControllersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAF5A0A7E4F45208FB14541 /* libPods-SkinnyViewControllersTests.a */; };
-		98CC0F851992ED7B0058637E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0F841992ED7B0058637E /* Foundation.framework */; };
-		98CC0F871992ED7B0058637E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0F861992ED7B0058637E /* CoreGraphics.framework */; };
-		98CC0F891992ED7B0058637E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0F881992ED7B0058637E /* UIKit.framework */; };
-		98CC0F8F1992ED7B0058637E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98CC0F8D1992ED7B0058637E /* InfoPlist.strings */; };
-		98CC0F911992ED7B0058637E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC0F901992ED7B0058637E /* main.m */; };
-		98CC0F951992ED7B0058637E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC0F941992ED7B0058637E /* AppDelegate.m */; };
-		98CC0F981992ED7B0058637E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CC0F961992ED7B0058637E /* Main_iPhone.storyboard */; };
-		98CC0F9B1992ED7B0058637E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CC0F991992ED7B0058637E /* Main_iPad.storyboard */; };
-		98CC0F9E1992ED7B0058637E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC0F9D1992ED7B0058637E /* MasterViewController.m */; };
-		98CC0FA11992ED7B0058637E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC0FA01992ED7B0058637E /* DetailViewController.m */; };
-		98CC0FA31992ED7B0058637E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CC0FA21992ED7B0058637E /* Images.xcassets */; };
-		98CC0FAA1992ED7B0058637E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0FA91992ED7B0058637E /* XCTest.framework */; };
-		98CC0FAB1992ED7B0058637E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0F841992ED7B0058637E /* Foundation.framework */; };
-		98CC0FAC1992ED7B0058637E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CC0F881992ED7B0058637E /* UIKit.framework */; };
-		98CC0FB41992ED7B0058637E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98CC0FB21992ED7B0058637E /* InfoPlist.strings */; };
-		98CC0FB61992ED7B0058637E /* SkinnyViewControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC0FB51992ED7B0058637E /* SkinnyViewControllersTests.m */; };
+		91ACF57AC3A04DCB9575DCF0 /* libPods-SkinnyViewControllers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D7491F07884528A65024D4 /* libPods-SkinnyViewControllers.a */; };
+		98BD3D981991B9C000B421F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD3D971991B9C000B421F6 /* Foundation.framework */; };
+		98BD3D9A1991B9C000B421F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD3D991991B9C000B421F6 /* CoreGraphics.framework */; };
+		98BD3D9C1991B9C000B421F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD3D9B1991B9C000B421F6 /* UIKit.framework */; };
+		98BD3DA21991B9C000B421F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98BD3DA01991B9C000B421F6 /* InfoPlist.strings */; };
+		98BD3DA41991B9C000B421F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3DA31991B9C000B421F6 /* main.m */; };
+		98BD3DA81991B9C000B421F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3DA71991B9C000B421F6 /* AppDelegate.m */; };
+		98BD3DAB1991B9C000B421F6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BD3DA91991B9C000B421F6 /* Main_iPhone.storyboard */; };
+		98BD3DAE1991B9C000B421F6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BD3DAC1991B9C000B421F6 /* Main_iPad.storyboard */; };
+		98BD3DB11991B9C000B421F6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3DB01991B9C000B421F6 /* MasterViewController.m */; };
+		98BD3DB41991B9C000B421F6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3DB31991B9C000B421F6 /* DetailViewController.m */; };
+		98BD3DB61991B9C000B421F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BD3DB51991B9C000B421F6 /* Images.xcassets */; };
+		98BD3DBD1991B9C100B421F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD3DBC1991B9C100B421F6 /* XCTest.framework */; };
+		98BD3DBE1991B9C100B421F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD3D971991B9C000B421F6 /* Foundation.framework */; };
+		98BD3DBF1991B9C100B421F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD3D9B1991B9C000B421F6 /* UIKit.framework */; };
+		98BD3DC71991B9C100B421F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98BD3DC51991B9C100B421F6 /* InfoPlist.strings */; };
+		98BD3DC91991B9C100B421F6 /* SkinnyViewControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3DC81991B9C100B421F6 /* SkinnyViewControllersTests.m */; };
+		98BD3DD41991BA0500B421F6 /* ApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD3DD31991BA0500B421F6 /* ApiClient.m */; };
+		A3D4E80A0B324BA0BE7A9296 /* libPods-SkinnyViewControllersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4540BED0ADA44C50AAE6BC0D /* libPods-SkinnyViewControllersTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		98CC0FAD1992ED7B0058637E /* PBXContainerItemProxy */ = {
+		98BD3DC01991B9C100B421F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 98CC0F791992ED7B0058637E /* Project object */;
+			containerPortal = 98BD3D8C1991B9C000B421F6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 98CC0F801992ED7B0058637E;
+			remoteGlobalIDString = 98BD3D931991B9C000B421F6;
 			remoteInfo = SkinnyViewControllers;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BAF5A0A7E4F45208FB14541 /* libPods-SkinnyViewControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkinnyViewControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		98CC0F811992ED7B0058637E /* SkinnyViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinnyViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		98CC0F841992ED7B0058637E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		98CC0F861992ED7B0058637E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		98CC0F881992ED7B0058637E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		98CC0F8C1992ED7B0058637E /* SkinnyViewControllers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkinnyViewControllers-Info.plist"; sourceTree = "<group>"; };
-		98CC0F8E1992ED7B0058637E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		98CC0F901992ED7B0058637E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		98CC0F921992ED7B0058637E /* SkinnyViewControllers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkinnyViewControllers-Prefix.pch"; sourceTree = "<group>"; };
-		98CC0F931992ED7B0058637E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		98CC0F941992ED7B0058637E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		98CC0F971992ED7B0058637E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		98CC0F9A1992ED7B0058637E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		98CC0F9C1992ED7B0058637E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		98CC0F9D1992ED7B0058637E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		98CC0F9F1992ED7B0058637E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		98CC0FA01992ED7B0058637E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		98CC0FA21992ED7B0058637E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		98CC0FA81992ED7B0058637E /* SkinnyViewControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinnyViewControllersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98CC0FA91992ED7B0058637E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		98CC0FB11992ED7B0058637E /* SkinnyViewControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkinnyViewControllersTests-Info.plist"; sourceTree = "<group>"; };
-		98CC0FB31992ED7B0058637E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		98CC0FB51992ED7B0058637E /* SkinnyViewControllersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkinnyViewControllersTests.m; sourceTree = "<group>"; };
-		993BA35E0B154CF39089492F /* Pods-SkinnyViewControllersTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkinnyViewControllersTests.xcconfig"; path = "Pods/Pods-SkinnyViewControllersTests.xcconfig"; sourceTree = "<group>"; };
-		A9C1AE49D758492D8A2AA1FD /* libPods-SkinnyViewControllers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkinnyViewControllers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9896F1B9BEE454DA3B02DB4 /* Pods-SkinnyViewControllers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkinnyViewControllers.xcconfig"; path = "Pods/Pods-SkinnyViewControllers.xcconfig"; sourceTree = "<group>"; };
+		4540BED0ADA44C50AAE6BC0D /* libPods-SkinnyViewControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkinnyViewControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		608E75FA623D4F1D8E490040 /* Pods-SkinnyViewControllers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkinnyViewControllers.xcconfig"; path = "Pods/Pods-SkinnyViewControllers.xcconfig"; sourceTree = "<group>"; };
+		878964F68A784A169ED98AC4 /* Pods-SkinnyViewControllersTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkinnyViewControllersTests.xcconfig"; path = "Pods/Pods-SkinnyViewControllersTests.xcconfig"; sourceTree = "<group>"; };
+		98BD3D941991B9C000B421F6 /* SkinnyViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinnyViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BD3D971991B9C000B421F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98BD3D991991B9C000B421F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98BD3D9B1991B9C000B421F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98BD3D9F1991B9C000B421F6 /* SkinnyViewControllers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkinnyViewControllers-Info.plist"; sourceTree = "<group>"; };
+		98BD3DA11991B9C000B421F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98BD3DA31991B9C000B421F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98BD3DA51991B9C000B421F6 /* SkinnyViewControllers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkinnyViewControllers-Prefix.pch"; sourceTree = "<group>"; };
+		98BD3DA61991B9C000B421F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98BD3DA71991B9C000B421F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98BD3DAA1991B9C000B421F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		98BD3DAD1991B9C000B421F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		98BD3DAF1991B9C000B421F6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		98BD3DB01991B9C000B421F6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		98BD3DB21991B9C000B421F6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		98BD3DB31991B9C000B421F6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		98BD3DB51991B9C000B421F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98BD3DBB1991B9C100B421F6 /* SkinnyViewControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinnyViewControllersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BD3DBC1991B9C100B421F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		98BD3DC41991B9C100B421F6 /* SkinnyViewControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkinnyViewControllersTests-Info.plist"; sourceTree = "<group>"; };
+		98BD3DC61991B9C100B421F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98BD3DC81991B9C100B421F6 /* SkinnyViewControllersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkinnyViewControllersTests.m; sourceTree = "<group>"; };
+		98BD3DD21991BA0500B421F6 /* ApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiClient.h; sourceTree = "<group>"; };
+		98BD3DD31991BA0500B421F6 /* ApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiClient.m; sourceTree = "<group>"; };
+		D1D7491F07884528A65024D4 /* libPods-SkinnyViewControllers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkinnyViewControllers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		98CC0F7E1992ED7B0058637E /* Frameworks */ = {
+		98BD3D911991B9C000B421F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CC0F871992ED7B0058637E /* CoreGraphics.framework in Frameworks */,
-				98CC0F891992ED7B0058637E /* UIKit.framework in Frameworks */,
-				98CC0F851992ED7B0058637E /* Foundation.framework in Frameworks */,
-				2257E7A9622C42B48DAB680A /* libPods-SkinnyViewControllers.a in Frameworks */,
+				98BD3D9A1991B9C000B421F6 /* CoreGraphics.framework in Frameworks */,
+				98BD3D9C1991B9C000B421F6 /* UIKit.framework in Frameworks */,
+				98BD3D981991B9C000B421F6 /* Foundation.framework in Frameworks */,
+				91ACF57AC3A04DCB9575DCF0 /* libPods-SkinnyViewControllers.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98CC0FA51992ED7B0058637E /* Frameworks */ = {
+		98BD3DB81991B9C100B421F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CC0FAA1992ED7B0058637E /* XCTest.framework in Frameworks */,
-				98CC0FAC1992ED7B0058637E /* UIKit.framework in Frameworks */,
-				98CC0FAB1992ED7B0058637E /* Foundation.framework in Frameworks */,
-				5FC9897C54504EE0B6FAA216 /* libPods-SkinnyViewControllersTests.a in Frameworks */,
+				98BD3DBD1991B9C100B421F6 /* XCTest.framework in Frameworks */,
+				98BD3DBF1991B9C100B421F6 /* UIKit.framework in Frameworks */,
+				98BD3DBE1991B9C100B421F6 /* Foundation.framework in Frameworks */,
+				A3D4E80A0B324BA0BE7A9296 /* libPods-SkinnyViewControllersTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		98CC0F781992ED7B0058637E = {
+		98BD3D8B1991B9C000B421F6 = {
 			isa = PBXGroup;
 			children = (
-				98CC0F8A1992ED7B0058637E /* SkinnyViewControllers */,
-				98CC0FAF1992ED7B0058637E /* SkinnyViewControllersTests */,
-				98CC0F831992ED7B0058637E /* Frameworks */,
-				98CC0F821992ED7B0058637E /* Products */,
-				F9896F1B9BEE454DA3B02DB4 /* Pods-SkinnyViewControllers.xcconfig */,
-				993BA35E0B154CF39089492F /* Pods-SkinnyViewControllersTests.xcconfig */,
+				98BD3D9D1991B9C000B421F6 /* SkinnyViewControllers */,
+				98BD3DC21991B9C100B421F6 /* SkinnyViewControllersTests */,
+				98BD3D961991B9C000B421F6 /* Frameworks */,
+				98BD3D951991B9C000B421F6 /* Products */,
+				608E75FA623D4F1D8E490040 /* Pods-SkinnyViewControllers.xcconfig */,
+				878964F68A784A169ED98AC4 /* Pods-SkinnyViewControllersTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
-		98CC0F821992ED7B0058637E /* Products */ = {
+		98BD3D951991B9C000B421F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98CC0F811992ED7B0058637E /* SkinnyViewControllers.app */,
-				98CC0FA81992ED7B0058637E /* SkinnyViewControllersTests.xctest */,
+				98BD3D941991B9C000B421F6 /* SkinnyViewControllers.app */,
+				98BD3DBB1991B9C100B421F6 /* SkinnyViewControllersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		98CC0F831992ED7B0058637E /* Frameworks */ = {
+		98BD3D961991B9C000B421F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				98CC0F841992ED7B0058637E /* Foundation.framework */,
-				98CC0F861992ED7B0058637E /* CoreGraphics.framework */,
-				98CC0F881992ED7B0058637E /* UIKit.framework */,
-				98CC0FA91992ED7B0058637E /* XCTest.framework */,
-				A9C1AE49D758492D8A2AA1FD /* libPods-SkinnyViewControllers.a */,
-				3BAF5A0A7E4F45208FB14541 /* libPods-SkinnyViewControllersTests.a */,
+				98BD3D971991B9C000B421F6 /* Foundation.framework */,
+				98BD3D991991B9C000B421F6 /* CoreGraphics.framework */,
+				98BD3D9B1991B9C000B421F6 /* UIKit.framework */,
+				98BD3DBC1991B9C100B421F6 /* XCTest.framework */,
+				D1D7491F07884528A65024D4 /* libPods-SkinnyViewControllers.a */,
+				4540BED0ADA44C50AAE6BC0D /* libPods-SkinnyViewControllersTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		98CC0F8A1992ED7B0058637E /* SkinnyViewControllers */ = {
+		98BD3D9D1991B9C000B421F6 /* SkinnyViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				98CC0F931992ED7B0058637E /* AppDelegate.h */,
-				98CC0F941992ED7B0058637E /* AppDelegate.m */,
-				98CC0F961992ED7B0058637E /* Main_iPhone.storyboard */,
-				98CC0F991992ED7B0058637E /* Main_iPad.storyboard */,
-				98CC0F9C1992ED7B0058637E /* MasterViewController.h */,
-				98CC0F9D1992ED7B0058637E /* MasterViewController.m */,
-				98CC0F9F1992ED7B0058637E /* DetailViewController.h */,
-				98CC0FA01992ED7B0058637E /* DetailViewController.m */,
-				98CC0FA21992ED7B0058637E /* Images.xcassets */,
-				98CC0F8B1992ED7B0058637E /* Supporting Files */,
+				98BD3DA61991B9C000B421F6 /* AppDelegate.h */,
+				98BD3DA71991B9C000B421F6 /* AppDelegate.m */,
+				98BD3DA91991B9C000B421F6 /* Main_iPhone.storyboard */,
+				98BD3DAC1991B9C000B421F6 /* Main_iPad.storyboard */,
+				98BD3DAF1991B9C000B421F6 /* MasterViewController.h */,
+				98BD3DB01991B9C000B421F6 /* MasterViewController.m */,
+				98BD3DB21991B9C000B421F6 /* DetailViewController.h */,
+				98BD3DB31991B9C000B421F6 /* DetailViewController.m */,
+				98BD3DD21991BA0500B421F6 /* ApiClient.h */,
+				98BD3DD31991BA0500B421F6 /* ApiClient.m */,
+				98BD3DB51991B9C000B421F6 /* Images.xcassets */,
+				98BD3D9E1991B9C000B421F6 /* Supporting Files */,
 			);
 			path = SkinnyViewControllers;
 			sourceTree = "<group>";
 		};
-		98CC0F8B1992ED7B0058637E /* Supporting Files */ = {
+		98BD3D9E1991B9C000B421F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				98CC0F8C1992ED7B0058637E /* SkinnyViewControllers-Info.plist */,
-				98CC0F8D1992ED7B0058637E /* InfoPlist.strings */,
-				98CC0F901992ED7B0058637E /* main.m */,
-				98CC0F921992ED7B0058637E /* SkinnyViewControllers-Prefix.pch */,
+				98BD3D9F1991B9C000B421F6 /* SkinnyViewControllers-Info.plist */,
+				98BD3DA01991B9C000B421F6 /* InfoPlist.strings */,
+				98BD3DA31991B9C000B421F6 /* main.m */,
+				98BD3DA51991B9C000B421F6 /* SkinnyViewControllers-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		98CC0FAF1992ED7B0058637E /* SkinnyViewControllersTests */ = {
+		98BD3DC21991B9C100B421F6 /* SkinnyViewControllersTests */ = {
 			isa = PBXGroup;
 			children = (
-				98CC0FB51992ED7B0058637E /* SkinnyViewControllersTests.m */,
-				98CC0FB01992ED7B0058637E /* Supporting Files */,
+				98BD3DC81991B9C100B421F6 /* SkinnyViewControllersTests.m */,
+				98BD3DC31991B9C100B421F6 /* Supporting Files */,
 			);
 			path = SkinnyViewControllersTests;
 			sourceTree = "<group>";
 		};
-		98CC0FB01992ED7B0058637E /* Supporting Files */ = {
+		98BD3DC31991B9C100B421F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				98CC0FB11992ED7B0058637E /* SkinnyViewControllersTests-Info.plist */,
-				98CC0FB21992ED7B0058637E /* InfoPlist.strings */,
+				98BD3DC41991B9C100B421F6 /* SkinnyViewControllersTests-Info.plist */,
+				98BD3DC51991B9C100B421F6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,15 +180,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		98CC0F801992ED7B0058637E /* SkinnyViewControllers */ = {
+		98BD3D931991B9C000B421F6 /* SkinnyViewControllers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98CC0FB91992ED7B0058637E /* Build configuration list for PBXNativeTarget "SkinnyViewControllers" */;
+			buildConfigurationList = 98BD3DCC1991B9C100B421F6 /* Build configuration list for PBXNativeTarget "SkinnyViewControllers" */;
 			buildPhases = (
-				F57CB71B0692480EBBE1F5C2 /* Check Pods Manifest.lock */,
-				98CC0F7D1992ED7B0058637E /* Sources */,
-				98CC0F7E1992ED7B0058637E /* Frameworks */,
-				98CC0F7F1992ED7B0058637E /* Resources */,
-				D74851C8606142C3A4151F33 /* Copy Pods Resources */,
+				E968077AC0564696BBF937C8 /* Check Pods Manifest.lock */,
+				98BD3D901991B9C000B421F6 /* Sources */,
+				98BD3D911991B9C000B421F6 /* Frameworks */,
+				98BD3D921991B9C000B421F6 /* Resources */,
+				37FF588C9BD348D3A25823C5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,44 +196,44 @@
 			);
 			name = SkinnyViewControllers;
 			productName = SkinnyViewControllers;
-			productReference = 98CC0F811992ED7B0058637E /* SkinnyViewControllers.app */;
+			productReference = 98BD3D941991B9C000B421F6 /* SkinnyViewControllers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		98CC0FA71992ED7B0058637E /* SkinnyViewControllersTests */ = {
+		98BD3DBA1991B9C100B421F6 /* SkinnyViewControllersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98CC0FBC1992ED7B0058637E /* Build configuration list for PBXNativeTarget "SkinnyViewControllersTests" */;
+			buildConfigurationList = 98BD3DCF1991B9C100B421F6 /* Build configuration list for PBXNativeTarget "SkinnyViewControllersTests" */;
 			buildPhases = (
-				337C2546A8F44758A8D69344 /* Check Pods Manifest.lock */,
-				98CC0FA41992ED7B0058637E /* Sources */,
-				98CC0FA51992ED7B0058637E /* Frameworks */,
-				98CC0FA61992ED7B0058637E /* Resources */,
-				27E619C114444E0590AE9A3F /* Copy Pods Resources */,
+				3ABBF417B4F84D4C93BF9AC3 /* Check Pods Manifest.lock */,
+				98BD3DB71991B9C100B421F6 /* Sources */,
+				98BD3DB81991B9C100B421F6 /* Frameworks */,
+				98BD3DB91991B9C100B421F6 /* Resources */,
+				E4CE5BF896B741EE9DF0B44A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				98CC0FAE1992ED7B0058637E /* PBXTargetDependency */,
+				98BD3DC11991B9C100B421F6 /* PBXTargetDependency */,
 			);
 			name = SkinnyViewControllersTests;
 			productName = SkinnyViewControllersTests;
-			productReference = 98CC0FA81992ED7B0058637E /* SkinnyViewControllersTests.xctest */;
+			productReference = 98BD3DBB1991B9C100B421F6 /* SkinnyViewControllersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		98CC0F791992ED7B0058637E /* Project object */ = {
+		98BD3D8C1991B9C000B421F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Wide Eye Labs";
 				TargetAttributes = {
-					98CC0FA71992ED7B0058637E = {
-						TestTargetID = 98CC0F801992ED7B0058637E;
+					98BD3DBA1991B9C100B421F6 = {
+						TestTargetID = 98BD3D931991B9C000B421F6;
 					};
 				};
 			};
-			buildConfigurationList = 98CC0F7C1992ED7B0058637E /* Build configuration list for PBXProject "SkinnyViewControllers" */;
+			buildConfigurationList = 98BD3D8F1991B9C000B421F6 /* Build configuration list for PBXProject "SkinnyViewControllers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -236,71 +241,41 @@
 				en,
 				Base,
 			);
-			mainGroup = 98CC0F781992ED7B0058637E;
-			productRefGroup = 98CC0F821992ED7B0058637E /* Products */;
+			mainGroup = 98BD3D8B1991B9C000B421F6;
+			productRefGroup = 98BD3D951991B9C000B421F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98CC0F801992ED7B0058637E /* SkinnyViewControllers */,
-				98CC0FA71992ED7B0058637E /* SkinnyViewControllersTests */,
+				98BD3D931991B9C000B421F6 /* SkinnyViewControllers */,
+				98BD3DBA1991B9C100B421F6 /* SkinnyViewControllersTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		98CC0F7F1992ED7B0058637E /* Resources */ = {
+		98BD3D921991B9C000B421F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CC0F9B1992ED7B0058637E /* Main_iPad.storyboard in Resources */,
-				98CC0FA31992ED7B0058637E /* Images.xcassets in Resources */,
-				98CC0F981992ED7B0058637E /* Main_iPhone.storyboard in Resources */,
-				98CC0F8F1992ED7B0058637E /* InfoPlist.strings in Resources */,
+				98BD3DAE1991B9C000B421F6 /* Main_iPad.storyboard in Resources */,
+				98BD3DB61991B9C000B421F6 /* Images.xcassets in Resources */,
+				98BD3DAB1991B9C000B421F6 /* Main_iPhone.storyboard in Resources */,
+				98BD3DA21991B9C000B421F6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98CC0FA61992ED7B0058637E /* Resources */ = {
+		98BD3DB91991B9C100B421F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CC0FB41992ED7B0058637E /* InfoPlist.strings in Resources */,
+				98BD3DC71991B9C100B421F6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		27E619C114444E0590AE9A3F /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-SkinnyViewControllersTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		337C2546A8F44758A8D69344 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D74851C8606142C3A4151F33 /* Copy Pods Resources */ = {
+		37FF588C9BD348D3A25823C5 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,7 +290,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-SkinnyViewControllers-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F57CB71B0692480EBBE1F5C2 /* Check Pods Manifest.lock */ = {
+		3ABBF417B4F84D4C93BF9AC3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CE5BF896B741EE9DF0B44A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SkinnyViewControllersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E968077AC0564696BBF937C8 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,64 +338,65 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		98CC0F7D1992ED7B0058637E /* Sources */ = {
+		98BD3D901991B9C000B421F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CC0F951992ED7B0058637E /* AppDelegate.m in Sources */,
-				98CC0F9E1992ED7B0058637E /* MasterViewController.m in Sources */,
-				98CC0F911992ED7B0058637E /* main.m in Sources */,
-				98CC0FA11992ED7B0058637E /* DetailViewController.m in Sources */,
+				98BD3DA81991B9C000B421F6 /* AppDelegate.m in Sources */,
+				98BD3DB11991B9C000B421F6 /* MasterViewController.m in Sources */,
+				98BD3DA41991B9C000B421F6 /* main.m in Sources */,
+				98BD3DD41991BA0500B421F6 /* ApiClient.m in Sources */,
+				98BD3DB41991B9C000B421F6 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98CC0FA41992ED7B0058637E /* Sources */ = {
+		98BD3DB71991B9C100B421F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CC0FB61992ED7B0058637E /* SkinnyViewControllersTests.m in Sources */,
+				98BD3DC91991B9C100B421F6 /* SkinnyViewControllersTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		98CC0FAE1992ED7B0058637E /* PBXTargetDependency */ = {
+		98BD3DC11991B9C100B421F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 98CC0F801992ED7B0058637E /* SkinnyViewControllers */;
-			targetProxy = 98CC0FAD1992ED7B0058637E /* PBXContainerItemProxy */;
+			target = 98BD3D931991B9C000B421F6 /* SkinnyViewControllers */;
+			targetProxy = 98BD3DC01991B9C100B421F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		98CC0F8D1992ED7B0058637E /* InfoPlist.strings */ = {
+		98BD3DA01991B9C000B421F6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				98CC0F8E1992ED7B0058637E /* en */,
+				98BD3DA11991B9C000B421F6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		98CC0F961992ED7B0058637E /* Main_iPhone.storyboard */ = {
+		98BD3DA91991B9C000B421F6 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				98CC0F971992ED7B0058637E /* Base */,
+				98BD3DAA1991B9C000B421F6 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		98CC0F991992ED7B0058637E /* Main_iPad.storyboard */ = {
+		98BD3DAC1991B9C000B421F6 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				98CC0F9A1992ED7B0058637E /* Base */,
+				98BD3DAD1991B9C000B421F6 /* Base */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		98CC0FB21992ED7B0058637E /* InfoPlist.strings */ = {
+		98BD3DC51991B9C100B421F6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				98CC0FB31992ED7B0058637E /* en */,
+				98BD3DC61991B9C100B421F6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -398,7 +404,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		98CC0FB71992ED7B0058637E /* Debug */ = {
+		98BD3DCA1991B9C100B421F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		98CC0FB81992ED7B0058637E /* Release */ = {
+		98BD3DCB1991B9C100B421F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -470,9 +476,9 @@
 			};
 			name = Release;
 		};
-		98CC0FBA1992ED7B0058637E /* Debug */ = {
+		98BD3DCD1991B9C100B421F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9896F1B9BEE454DA3B02DB4 /* Pods-SkinnyViewControllers.xcconfig */;
+			baseConfigurationReference = 608E75FA623D4F1D8E490040 /* Pods-SkinnyViewControllers.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -484,9 +490,9 @@
 			};
 			name = Debug;
 		};
-		98CC0FBB1992ED7B0058637E /* Release */ = {
+		98BD3DCE1991B9C100B421F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9896F1B9BEE454DA3B02DB4 /* Pods-SkinnyViewControllers.xcconfig */;
+			baseConfigurationReference = 608E75FA623D4F1D8E490040 /* Pods-SkinnyViewControllers.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -498,9 +504,9 @@
 			};
 			name = Release;
 		};
-		98CC0FBD1992ED7B0058637E /* Debug */ = {
+		98BD3DD01991B9C100B421F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 993BA35E0B154CF39089492F /* Pods-SkinnyViewControllersTests.xcconfig */;
+			baseConfigurationReference = 878964F68A784A169ED98AC4 /* Pods-SkinnyViewControllersTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkinnyViewControllers.app/SkinnyViewControllers";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -521,9 +527,9 @@
 			};
 			name = Debug;
 		};
-		98CC0FBE1992ED7B0058637E /* Release */ = {
+		98BD3DD11991B9C100B421F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 993BA35E0B154CF39089492F /* Pods-SkinnyViewControllersTests.xcconfig */;
+			baseConfigurationReference = 878964F68A784A169ED98AC4 /* Pods-SkinnyViewControllersTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkinnyViewControllers.app/SkinnyViewControllers";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -543,34 +549,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		98CC0F7C1992ED7B0058637E /* Build configuration list for PBXProject "SkinnyViewControllers" */ = {
+		98BD3D8F1991B9C000B421F6 /* Build configuration list for PBXProject "SkinnyViewControllers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98CC0FB71992ED7B0058637E /* Debug */,
-				98CC0FB81992ED7B0058637E /* Release */,
+				98BD3DCA1991B9C100B421F6 /* Debug */,
+				98BD3DCB1991B9C100B421F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98CC0FB91992ED7B0058637E /* Build configuration list for PBXNativeTarget "SkinnyViewControllers" */ = {
+		98BD3DCC1991B9C100B421F6 /* Build configuration list for PBXNativeTarget "SkinnyViewControllers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98CC0FBA1992ED7B0058637E /* Debug */,
-				98CC0FBB1992ED7B0058637E /* Release */,
+				98BD3DCD1991B9C100B421F6 /* Debug */,
+				98BD3DCE1991B9C100B421F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98CC0FBC1992ED7B0058637E /* Build configuration list for PBXNativeTarget "SkinnyViewControllersTests" */ = {
+		98BD3DCF1991B9C100B421F6 /* Build configuration list for PBXNativeTarget "SkinnyViewControllersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98CC0FBD1992ED7B0058637E /* Debug */,
-				98CC0FBE1992ED7B0058637E /* Release */,
+				98BD3DD01991B9C100B421F6 /* Debug */,
+				98BD3DD11991B9C100B421F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 98CC0F791992ED7B0058637E /* Project object */;
+	rootObject = 98BD3D8C1991B9C000B421F6 /* Project object */;
 }
