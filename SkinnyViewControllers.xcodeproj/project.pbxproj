@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		91ACF57AC3A04DCB9575DCF0 /* libPods-SkinnyViewControllers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D7491F07884528A65024D4 /* libPods-SkinnyViewControllers.a */; };
 		986DB8EB1992FBDC00C9A558 /* Quote.m in Sources */ = {isa = PBXBuildFile; fileRef = 986DB8EA1992FBDC00C9A558 /* Quote.m */; };
+		986DB8EE1993E9D400C9A558 /* ArrayDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 986DB8ED1993E9D400C9A558 /* ArrayDatasource.m */; };
+		986DB8F11993EF0200C9A558 /* UITableViewCell+ConfigureForQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = 986DB8F01993EF0200C9A558 /* UITableViewCell+ConfigureForQuote.m */; };
 		98BD3D981991B9C000B421F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD3D971991B9C000B421F6 /* Foundation.framework */; };
 		98BD3D9A1991B9C000B421F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD3D991991B9C000B421F6 /* CoreGraphics.framework */; };
 		98BD3D9C1991B9C000B421F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD3D9B1991B9C000B421F6 /* UIKit.framework */; };
@@ -45,6 +47,10 @@
 		878964F68A784A169ED98AC4 /* Pods-SkinnyViewControllersTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkinnyViewControllersTests.xcconfig"; path = "Pods/Pods-SkinnyViewControllersTests.xcconfig"; sourceTree = "<group>"; };
 		986DB8E91992FBDC00C9A558 /* Quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quote.h; sourceTree = "<group>"; };
 		986DB8EA1992FBDC00C9A558 /* Quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quote.m; sourceTree = "<group>"; };
+		986DB8EC1993E9D400C9A558 /* ArrayDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDatasource.h; sourceTree = "<group>"; };
+		986DB8ED1993E9D400C9A558 /* ArrayDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDatasource.m; sourceTree = "<group>"; };
+		986DB8EF1993EF0200C9A558 /* UITableViewCell+ConfigureForQuote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ConfigureForQuote.h"; sourceTree = "<group>"; };
+		986DB8F01993EF0200C9A558 /* UITableViewCell+ConfigureForQuote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ConfigureForQuote.m"; sourceTree = "<group>"; };
 		98BD3D941991B9C000B421F6 /* SkinnyViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinnyViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BD3D971991B9C000B421F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		98BD3D991991B9C000B421F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -143,10 +149,14 @@
 				98BD3DB01991B9C000B421F6 /* MasterViewController.m */,
 				98BD3DB21991B9C000B421F6 /* DetailViewController.h */,
 				98BD3DB31991B9C000B421F6 /* DetailViewController.m */,
+				986DB8EF1993EF0200C9A558 /* UITableViewCell+ConfigureForQuote.h */,
+				986DB8F01993EF0200C9A558 /* UITableViewCell+ConfigureForQuote.m */,
 				98BD3DD21991BA0500B421F6 /* ApiClient.h */,
 				98BD3DD31991BA0500B421F6 /* ApiClient.m */,
 				986DB8E91992FBDC00C9A558 /* Quote.h */,
 				986DB8EA1992FBDC00C9A558 /* Quote.m */,
+				986DB8EC1993E9D400C9A558 /* ArrayDatasource.h */,
+				986DB8ED1993E9D400C9A558 /* ArrayDatasource.m */,
 				98BD3DB51991B9C000B421F6 /* Images.xcassets */,
 				98BD3D9E1991B9C000B421F6 /* Supporting Files */,
 			);
@@ -348,8 +358,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				986DB8EB1992FBDC00C9A558 /* Quote.m in Sources */,
+				986DB8F11993EF0200C9A558 /* UITableViewCell+ConfigureForQuote.m in Sources */,
 				98BD3DA81991B9C000B421F6 /* AppDelegate.m in Sources */,
 				98BD3DB11991B9C000B421F6 /* MasterViewController.m in Sources */,
+				986DB8EE1993E9D400C9A558 /* ArrayDatasource.m in Sources */,
 				98BD3DA41991B9C000B421F6 /* main.m in Sources */,
 				98BD3DD41991BA0500B421F6 /* ApiClient.m in Sources */,
 				98BD3DB41991B9C000B421F6 /* DetailViewController.m in Sources */,
